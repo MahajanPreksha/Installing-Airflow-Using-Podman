@@ -1,4 +1,4 @@
-# Steps to install Airflow on Windows using Podman Desktop
+# Steps to install Apache Airflow on Windows using Podman Desktop
 1. Install Podman Desktop and further, install Podman and Podman CLI extension.
 
 2. Go to the [releases](https://github.com/astronomer/astro-cli/releases) page and download the setup file as per the system requirements.
@@ -37,6 +37,12 @@
 
 `astro dev init`
 
-13. Run the following command to run Airflow (locally)[http://localhost:8080/].
+13. Run the following command to run Airflow [locally](http://localhost:8080/).
 
 `astro dev start`
+
+14. Open http://localhost:8080/ and sign in into airflow.
+
+Default id: admin
+
+Default password: admin
